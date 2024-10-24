@@ -1,1 +1,29 @@
+#==GPT-LABS-:>TOKEN-INSTRUCT - FILE (0X9FD)
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
+:: FILE_ENTRY : DoGPT (Token_ID_0xDFT-P64) :::::::::::::::::::::::::::::::::::
+
+>> DoGPT-Layer_Protocol.vx:
+    00100111 01101111 01100100 00101101 01110000 00110111 01110111 00110110
+    [TOKEN_STRUCTURE]:{INIT_BYTE}[0x0C32]
+    - Generate_Pipeline[tok-in](function){stack_seq=8192bits};
+
+>> DoGPT_Token_ID : DoGPT_Type(03) ::
+    [TOKEN_VECTORS]:    
+    - Layer[32]-> Depth(24) - Positional_Enc[2048bit]
+    - Split_: Data_Tok:0x5B67 , Model_Call:Init-{7xFToken} 
+    - Classify_[Mem]:[2E][Hash_02Ax]
+
+>> Token_Classification::RUN <<Encrypt__TOKEN>>
+    Token.DoGPT[VX-1024]:
+    - DoGPT_mem_Vec{init_load#}[txd0]
+    - Positional_Data(Marker_3E-15)#
+    - Hashing GPT_CALL>[Tokenize.MEM](file=DoGPT.vx)#
+    
+:: DoGPT-Tokenization (Instruct_Modal: Create_SEQ=FALSE) :::
+    -> Use_case:
+       *Meme_token_type:[DFT32][32-bit]
+       *Call-to-tokenize: {user_input_mem->DoGPT_Token}[exec_pump_terminal.exe]
+       -> Validate:[Exec+Token_32]
+
+EOF :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
